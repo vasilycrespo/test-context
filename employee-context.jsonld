@@ -3,13 +3,13 @@
     "@version": 1.1,
     "@protected": true,
     "Employee": {
-      "@id": "https://gimly-blockchain.github.io/vc-contexts/employee-context#Employee",
+      "@id": "https://raw.githubusercontent.com/vasilycrespo/test-context/main/employee-context#Employee",
       "@context": {
         "@version": 1.1,
         "@protected": true,
         "id": "@id",
         "type": "@type",
-        "emp": "https://gimly-blockchain.github.io/vc-contexts/employee-context#",
+        "emp": "https://raw.githubusercontent.com/vasilycrespo/test-context/main/employee-context.jsonld#",
         "schema": "https://schema.org/",
         "firstName": "emp:firstName",
         "lastName": "emp:lastName",
